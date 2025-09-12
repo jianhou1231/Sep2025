@@ -1,3 +1,2 @@
 # Sep2025
-# printf(Hi!)
-## Testing
+print(HI)
