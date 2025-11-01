@@ -137,12 +137,10 @@ overflow:hidden;
 	}
 
 	nav ul{
-	flex-direction:coloumn;
-	max-width:100%;
-	min-height:50%;
-	margin-left:20px;
-	margin-right:20px;
-	
+	flex-direction:column;
+	margin:20px;
+	padding:10px;
+	text-align:center;
 	}
 
 	nav ul li{
@@ -247,3 +245,4 @@ overflow:hidden;
 	}
 
 }
+
