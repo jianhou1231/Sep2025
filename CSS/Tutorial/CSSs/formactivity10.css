@@ -1,0 +1,46 @@
+body{
+margin-top:20px;
+}
+
+.paragraph{
+margin-top:10vw;
+margin:0px;
+font-size:160%;
+text-align:center;
+width:60%;height:40%;
+}
+
+
+
+table{
+background-color:powderblue;
+color:#696969;
+font-family:verhana;
+padding:1vw;
+margin:8vw;
+		
+}
+
+table tr th{
+text-align:left;
+background-color:gold;
+width:30%;
+padding:15px;
+margin:5px;
+border:5px white solid;
+}
+
+table tr.cut{
+margin-left:10px;
+margin-right:10px;
+margin-top:10px;
+}
+
+table tr th.short{
+text-align:center;
+background:linear-gradient(45deg,pink,gold);
+width:15%;height:40%;
+padding:0px;
+position:sticky;
+top:0px;
+}
