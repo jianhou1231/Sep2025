@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JAVASCRIPTTTTTTT EVENT ONCHANGE</title>
+<font size:"20">My Website</font>
+#paragraphattributes is allign=left/right/center/justify
+
+<link rel=icon href=picture.jpg type=image/jpg>
+<meta name=viewport content=width=device-width, initial-scale=1.0>
+
+</head>
+<body>
+<h1> Evenet-onchange</h1>
+<font-size=5 color=red><b>
+( A Function is triggered->
+the input text will change to UPPER CASE when the input field changed)
+</b></font><br><br>
+
+<h2> Example1:</h2>
+Enter your name:
+<input type=text id=fname onchange=CallFunction()>
+<script>
+function CallFunction()
+{
+ var getfname=document.getElementById("fname");
+ alert("The input text *** " + getfname.value + " *** will change to UPPER CASE");
+ getfname.value=getfname.value.toUpperCase()
+ console.log(getfname.value)
+}
+</script>
+
+</body>
+</html>

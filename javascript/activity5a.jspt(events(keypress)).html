@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JAVASCRIPTTTTTTT EVENT KEYPRESSS</title>
+<font size:"20">My Website</font>
+#paragraphattributes is allign=left/right/center/justify
+
+<link rel=icon href=picture.jpg type=image/jpg>
+<meta name=viewport content=width=device-width, initial-scale=1.0>
+<script>
+window.addEventListener("keypress",checkKeyPress,false);
+
+function checkKeyPress(key){
+ if (key.keyCode=="97"){
+   alert("The 'a' lower case has been pressed!")
+ }
+ if (key.keyCode=="65"){
+   alert("The 'A' lower case has been pressed!")
+ }	
+}
+</script>
+</head>
+<body>
+
+<h1>Keyboard Evenets - KeyPress in JavaScript</h1>
+
+<p>keyCode:97=a(lower case) on keyboard</p>
+
+
+</body>
+</html>

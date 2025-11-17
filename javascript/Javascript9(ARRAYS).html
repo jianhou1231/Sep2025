@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JAVASCRIPTTTTTTT-ARRAYS</title>
+
+<link rel=icon href=picture.jpg type=image/jpg>
+<meta name=viewport content=width=device-width, initial-scale=1.0>
+
+</head>
+<body>
+<h1>This is an example of using Javascript-Arrays in HTML</h1>
+<h2> Example1:By array literal</h2>
+
+<script>
+var subjecttaken=["DCS3003","DCS4003","DCS5003"];
+for(i=0;i<subjecttaken.length;i++){
+document.write(subjecttaken[i] +"<br/>");
+}
+</script>
+<hr>
+
+<h2> Example2:By creating instance of Array directl(using new keyword)</h2>
+
+<script>
+var i;
+var subjecttaken= new Array();
+subjecttaken[0]="DCS3003";
+subjecttaken[1]="DCS4003";
+subjecttaken[2]="DCS5003";
+
+for(i=0;i<subjecttaken.length;i++){
+document.write(subjecttaken[i] +"<br/>");
+}
+</script>
+<hr>
+
+
+<h2> Example3:By using an Array construtor(using new keyword)</h2>
+
+<script>
+var subjecttaken= new Array("DCS3003","DCS4003","DCS5003");
+
+
+for(i=0;i<subjecttaken.length;i++){
+document.write(subjecttaken[i] +"<br/>");
+}
+</script>
+<hr>
+
+</body>
+</html>

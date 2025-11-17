@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Website^-^</title>
+<font size:"20">My Website</font>
+#paragraphattributes is allign=left/right/center/justify
+
+<link rel=icon href=picture.jpg type=image/jpg>
+<meta name=viewport content=width=device-width, initial-scale=1.0>
+<script>
+function bigImg(x){
+ x.style.height="300px";
+ x.style.width="440px";
+}
+
+function normalImg(x){
+ x.style.height="150px";
+ x.style.width="220px";
+}
+</script>
+</head>
+<body>
+
+<hr size=4 color=blue width=50%>
+<h1 align=center>Introduction to Disney Cartoon Characters</h1>
+<hr size=4 color=blue width=50%>
+
+<br><br>
+<!--Onmouseover--events when mouse on the object(image/text/video,...)/ Onmouseout --events when mouse moveout from the object-->
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src=./image/square.jpg width=200px height=200px border=6px alt=square align=middle>
+<font color=purple size=4><b>
+Donald isknown for his semi-intelligible speech and his mischievous, temperamental, and pompous personality.
+</b></font>
+<hr size=4 color=blue width=50%>
+<br><br><br>
+
+<!--Onclick--events when mouse click on the object(image/text/video,...)-->
+
+<img onclick="bigImg(this)" onmouseout="normalImg(this)" src=./image/square.jpg width=200px height=200px border=6px alt=square align=middle>
+<font color=purple size=4><b>
+Donald isknown for his semi-intelligible speech and his mischievous, temperamental, and pompous personality.
+</b></font>
+<hr size=4 color=blue width=50%>
+<br><br><br>
+
+<!--Ondblclick--events when mouse click twice on the object(image/text/video,...)-->
+
+
+<img ondblclick="bigImg(this)" onmouseout="normalImg(this)" src=./image/square.jpg width=200px height=200px border=6px alt=square align=middle>
+<font color=purple size=4><b>
+Donald isknown for his semi-intelligible speech and his mischievous, temperamental, and pompous personality.
+</b></font>
+
+
+</body>
+</html>
