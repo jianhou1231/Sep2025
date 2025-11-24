@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><head><title>JavaScript</title>
+<link rel=icon href=sunflower.jpg type=image/jpg>
+<link rel=stylesheet href=./CSS/TUTORIALLESSON17.css>
+<meta name=viewport content=width=device-width, initial-scale=1.0> </head>
+<body>
+
+<main><div>
+<h2>Simple JavaScript Calculator</h2>
+Enter first Number:
+<input type="number" id="num1" required><br><br>
+
+Enter second number:
+<input type="number" id="num2" required><br><br>
+
+<button onclick="calculate('+')">Add</button>
+<button onclick="calculate('-')">Potong</button>
+<button onclick="calculate('*')">darab</button>
+<button onclick="calculate('/')">bahagi</button>
+
+<h2 id="result">Result: </h2>
+</div></main>
+<script>  
+  function calculate(operator){
+	let n1 = parseFloat(document.getElementById("num1").value);
+	let n2 = parseFloat(document.getElementById("num2").value);
+	let result;
+	
+	if(isNaN(n1) || isNaN(n2)){
+		result= "Please enter both numbers";
+	} else {
+		switch(operator){
+		  case '+' :
+		   result= n1 + n2;
+		   break;
+		  case '-' :
+		   result= n1 - n2;
+		   break;
+		  case '*' :
+		   result= n1 * n2;
+		   break;
+		  case '/' :
+		   result= n1 / n2;
+		   break;
+	 }
+	}
+	document.getElementById("result").innerHTML = "Result: " + result;
+}	
+</script>
+</body></html>
