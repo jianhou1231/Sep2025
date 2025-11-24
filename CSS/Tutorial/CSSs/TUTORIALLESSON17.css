@@ -1,0 +1,45 @@
+body{
+margin:0px;
+padding:0px;
+width:100vw;
+height:100vw;
+font-family:Times New Romans;
+font-weight:bold;
+background:linear-gradient(45deg,powderblue,darkgrey);
+background-size:cover;
+background-repeat:repeat-y;
+}  
+
+main{
+box-sizing:border-box;
+margin:5vw;
+padding:5vw;
+display:grid;
+justify-content:center;
+border:2px solid black;
+box-shadow:3px 3px 3px 3px black;
+}
+
+div{
+padding:10px;
+background-color:white;
+color:gold;
+border:2px solid gold;
+}
+
+div h2{
+background:skyblue;
+box-shadow:2px 2px 2px black;
+}
+
+div input{
+box-sizing:content-box;
+background-color:grey;
+}
+
+div button{
+border:2px solid black;
+border-radius:15px;
+background-color:darkgrey;
+text-shadow:2px 1px 1px 1px black;
+}
